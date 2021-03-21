@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 300;
+	line-height: 1.6;
+    background-image: url(./img/dean-bennett-aBV8pVODWiM-unsplash.jpg);
+    background-size: contain;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.heading-secondary{
+    color: rgb(201, 109, 34);
+    font-size: 3rem;
+}
+
+.heading-primary{
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 12rem;
+}
+
+.testimonials-container{
+    min-height: 35vh;
+    width: 50vw;
+    border: 1px solid #fff;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+    width:2rem;
+    height:4rem;
+    background-color: transparent;
+    border: 5px solid rgb(201, 109, 34);
+    border-radius: 50%;
+}
+
+.btn-right{
+    top:45%;
+    left:-4%;
+}
+
+.btn-left{
+    top:45%;
+    left:102%;
+}
+
+.img{
+    position: absolute;
+    left:45%;
+    top:-5%;
+    transform: translate(0%, -45%);
+    height:15vh;
+    border-radius: 50%;
+    border: 5px solid rgb(201, 109, 34);
+}
+
+.name{
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.quote{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
